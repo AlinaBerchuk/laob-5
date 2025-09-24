@@ -1,0 +1,57 @@
+/* Локальні шрифти */
+@font-face {
+  font-family: "Cadens";
+  src: url("font/cadens-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Comforter";
+  src: url("font/Comforter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Haglos";
+  src: url("font/Haglos Regular OTF.otf") format("opentype");
+}
+
+/* Базові стилі */
+body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Навігація з Cadens */
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Cadens", sans-serif;
+  font-size: 18px;
+}
+
+/* Заголовки з Haglos */
+h1, h2 {
+  font-family: "Haglos", serif;
+  color: darkgreen;
+}
+
+/* Акцентний текст з Comforter */
+.accent {
+  font-family: "Comforter", cursive;
+  font-size: 22px;
+  color: darkred;
+}
+
+/* Google-шрифт Roboto Slab */
+.google {
+  font-family: "Roboto Slab", serif;
+  color: darkblue;
+}
+
+/* Другий Google-шрифт Pacifico */
+.pacifico {
+  font-family: "Pacifico", cursive;
+  color: purple;
+  font-size: 20px;
+}
+
